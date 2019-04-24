@@ -48,7 +48,7 @@ def show_num(no):
 
 for i in range(0, 10): 
     print(i) 
-    show_num(i) 
+    show_num(i)
     time.sleep(1) 
 
 GPIO.cleanup()
